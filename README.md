@@ -13,11 +13,11 @@ You can view the application in your browser at
 
 The Apps are :
 
-1. [Hello World](https://github.com/manasvi2001/Project-CORE-Angular-4-Prerequisite/tree/master/hello-world) 
+1.[Hello World](https://github.com/manasvi2001/Project-CORE-Angular-4-Prerequisite/tree/master/hello-world) 
 
 In this Example we will see a simple Angular 4 App.This is focused on creating component.
 
-2. [Forms](https://github.com/manasvi2001/Project-CORE-Angular-4-Prerequisite/tree/master/forms)
+2.[Forms](https://github.com/manasvi2001/Project-CORE-Angular-4-Prerequisite/tree/master/forms)
 
 In this we are demostrating one-way and two-way data binding.
 
