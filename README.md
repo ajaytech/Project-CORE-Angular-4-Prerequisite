@@ -1,9 +1,10 @@
 # Project-CORE-Angular-4-Prerequisite
 
 Go inside each of the project and run
- npm install
+```npm install```
 
 Then run
- npm start
+```npm start```
 
-You can view the application in your browser at http://localhost:4200
+You can view the application in your browser at
+```http://localhost:4200```
