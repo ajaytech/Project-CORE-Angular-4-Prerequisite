@@ -1,0 +1,15 @@
+<input #animalId placeholder="Animal Id">
+<input #animalName placeholder="Animal Name">
+<input #animalPic placeholder="Animal Pic Link">
+<button (click)="addAnimal(animalId.value, animalName.value, animalPic.value);animalId.value='';animalName.value='';animalPic.value='';">Add</button>
+
+<br><br>
+
+<ul>
+	<li *ngFor="let animal of animals">
+		<div>
+			<span>{{animal.id}}</span>&nbsp;<span>{{animal.name}}</span>
+		</div>
+		<img class="animalPic" src="{{animal.pic}}">
+	</li>
+</ul>

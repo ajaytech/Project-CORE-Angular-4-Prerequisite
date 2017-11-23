@@ -1,0 +1,10 @@
+<input type="text" name="animal" placeholder="Animal you like" #likeAnimal>
+<input type="text" name="animal" placeholder="Animal you like less" #likeLessAnimal>
+<input type="text" [(ngModel)]="animal.favourite" placeholder="Favourite Animal">
+<button (click)="submitForm(likeAnimal.value, likeLessAnimal.value)">Submit</button>
+<br><br>
+<div>
+	Animal you like: {{animal.like}}<br>
+	Animal you like less: {{animal.likeLess}}<br>
+	Your favourite Animal: {{animal.favourite}}
+</div>
